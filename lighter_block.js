@@ -1,4 +1,4 @@
-elements.lighter_cube = {
+elements.lightercube = {
   color: ["#ffffff"],
   behavior: behaviors.WALL,
   category: "solids",
@@ -6,5 +6,5 @@ elements.lighter_cube = {
   density: 265,
   burn: 1000,
   burnTime: 300,
-  burnInto: ["ash"],
+  burnInto: ["smoke"],
 };
