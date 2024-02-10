@@ -1,12 +1,10 @@
-- 👋 Hi, I’m @NeverGonaLetYouCry
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-NeverGonaLetYouCry/NeverGonaLetYouCry is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+elements.lighter_cube = {
+  color: ["#ffffff"],
+  behavior: behaviors.WALL,
+  category: "solids",
+  state: "solid",
+  density: 265,
+  burn: 1000,
+  burnTime: 300,
+  burnInto: ["ash"],
+};
